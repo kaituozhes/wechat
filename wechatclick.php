@@ -24,7 +24,8 @@ public function responseMsg()
   if($postObj->MsgType=='event'){
   if($postObj->Event == 'CLICK'){
    if($postObj->EventKey == '123'){
-
+     //触发关键词123
+    //返回关键词
   $contentStr = "400 867 5521";
   $resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $contentStr);
   echo $resultStr;
