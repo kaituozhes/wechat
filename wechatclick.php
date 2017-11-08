@@ -1,5 +1,5 @@
 <?php
-//事件推送
+//事件推送推送
 public function responseMsg()
    {
 
